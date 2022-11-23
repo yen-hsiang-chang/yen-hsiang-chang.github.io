@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Yen-Hsiang Chang</title>
+  
+  <meta name="author" content="Yen-Hsiang Chang">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr style="padding:0px">
+            <td style="padding:2.5%;width:25%;max-width:25%">
+              <a href="assets/profile.png"><img style="width:100%;max-width:100%" alt="profile photo" src="assets/profile.png" class="hoverZoomLink"></a>
+            </td>
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p style="text-align:center">
+                  <name>Yen-Hsiang Chang</name>
+                </p>
+                <p style="text-align:center">
+                  <a href="mailto:yenhsiangc@gmail.com">Email</a> &nbsp/&nbsp
+                  <a href="assets/cv.pdf">CV</a>  &nbsp/&nbsp
+                  <a href="https://github.com/yen-hsiang-chang">Github</a>
+                </p>
+
+                <p>My research interests lie in the general area of high-performance computing, particularly in parallel programming and algorithms, with the focus on mitigating load imbalance in parallel applications and designing memory-efficient parallel algorithms.
+                </p>
+
+                <p>I received my Bachelor's degree in Computer Engineering from University of Illinois at Urbana-Champaign (UIUC) in 2022, with Highest Honors and with a minor in Mathematics. I have had the privilege to work with <a href="https://ece.illinois.edu/about/directory/faculty/w-hwu">Prof. Wen-mei Hwu</a>, <a href="https://ise.illinois.edu/directory/profile/nagi">Prof. Rakesh Nagi</a>, and <a href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/xiong-jinjun.detail.html">Prof. Jinjun Xiong</a> at Illinois. If you would like to learn more about me, please see my <a href="assets/cv.pdf">résumé</a> or contact me via <a href="mailto:yenhsiangc@gmail.com">email</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">          
+          <tbody>
+            <tr>
+              <td style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                <heading>Research</heading>
+              </td>
+            </tr>
+            
+            <tr>
+              <td style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                [2]&nbsp&nbsp<papertitle>Parallelizing Maximal Clique Enumeration on GPUs</papertitle>
+                <br>
+                <a href="https://scholar.google.com/citations?user=pAaIXqsAAAAJ&hl=en">Mohammad Almasri</a><sup>*</sup>,
+                <a href="https://yen-hsiang-chang.github.io"><strong>Yen-Hsiang Chang</strong></a><sup>*</sup>,
+                <a href="https://ielhajj.github.io/">Izzat El Hajj</a>,
+                <a href="https://ise.illinois.edu/directory/profile/nagi">Rakesh Nagi</a>,
+                <a href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/xiong-jinjun.detail.html">Jinjun Xiong</a>,
+                <a href="https://ece.illinois.edu/about/directory/faculty/w-hwu">Wen-mei Hwu</a> (<sup>*</sup>Equal contribution)
+                <br>
+                <em>arXiv preprint</em>, 2022 &nbsp(Acceped as poster in PPoPP'23 but withdrew due to time conflicts)
+                <br>
+                <!-- <a href="TODO">arxiv</a> --> arxiv
+                <br>
+                Instead of the breadth-first approaches used in prior GPU works, we propose to parallelize maximal clique enumeration on GPUs by performing depth-first traversal using the Bron-Kerbosch algorithm. We also propose a worker list for dynamic load balancing, as well as partial induced subgraphs and a compact representation of excluded vertex sets to regulate memory consumption. Our evaluation shows that our implementation on a single GPU outperforms the state-of-the-art parallel CPU implementation by a geometric mean of 4.9X (up to 16.7X), and scales efficiently to multiple GPUs.
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                [1]&nbsp&nbsp<papertitle>MLHarness: A Scalable Benchmarking System for MLCommons</papertitle>
+                <br>
+                <a href="https://yen-hsiang-chang.github.io"><strong>Yen-Hsiang Chang</strong>,
+                <a href="https://dblp.org/pid/305/7257.html">Jianhao Pu</a>,
+                <a href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/xiong-jinjun.detail.html">Jinjun Xiong</a>,
+                <a href="https://ece.illinois.edu/about/directory/faculty/w-hwu">Wen-mei Hwu</a>
+                <br>
+                <em>BenchCouncil</em>, 2021
+                <br>
+                <a href="https://arxiv.org/abs/2111.05231">arxiv</a> &nbsp/&nbsp <a href="https://github.com/c3sr/mlharness">code</a> &nbsp/&nbsp <a href="https://youtu.be/IzAhn5QUClU">presentation</a>
+                <br>
+                We propose MLHarness, a scalable benchmarking harness system for MLCommons Inference developed on top of the MLModelScope system with three distinctive features: (1) it codifies the standard benchmark process as defined by MLCommons Inference including the models, datasets, DL frameworks, and software and hardware systems; (2) it provides an easy and declarative approach for model developers to contribute their models and datasets to MLCommons Inference; and (3) it includes the support of a wide range of models with varying inputs/outputs modalities so that we can scalably benchmark these models across different datasets, frameworks, and hardware systems.
+              </td>
+            </tr>
+          
+          </tbody>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">          
+          <tbody>
+            <tr>
+              <td style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                <heading>Honors & Awards</heading>
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">          
+                  <tbody>
+                    <tr>
+                      <td style="padding-top:10px;padding-bottom:0px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                        <subheading>International</subheading>
+                        <ul>
+                          <li>
+                            <strong>2022 Google Hash Code World Finals</strong>, 17th Place
+                          </li>
+                          <li>
+                            <strong>44th Annual ICPC World Finals Championship</strong>, Bronze Medal (11th Place)
+                          </li>
+                          <li>
+                            <strong>2021 Google Code Jam Round 3</strong>, 163rd Place
+                          </li>
+                          <li>
+                            <strong>Microsoft Q# Coding Contest – Summer 2020</strong>, 6th Place
+                          </li>
+                          <li>
+                            <strong>2020 Topcoder Open Algorithm Competition</strong>, Round 4 Qualifier (Top 110)
+                          </li>
+                          <li>
+                            <strong>2020 Google Code Jam Round 3</strong>, 132nd Place
+                          </li>
+                          <li>
+                            <strong>2019 Google Code Jam Round 3</strong>, 112th Place
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">          
+                  <tbody>
+                    <tr>
+                      <td style="padding-top:10px;padding-bottom:0px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                        <subheading>Domestic</subheading>
+                        <ul>
+                          <li>
+                            <strong>2021 UIUC ECE Alumni Association Scholarship</strong>
+                          </li>
+                          <li>
+                            <strong>2020 UIUC Robert M. Janowiak Scholarship</strong>
+                          </li>
+                          <li>
+                            <strong>2020 UIUC & Michigan Correlation One’s Terminal Live</strong>, 4th Place
+                          </li>
+                          <li>
+                            <strong>2020 ICPC North America Championship</strong>, Midwest Champion (10th Place)
+                          </li>
+                          <li>
+                            <strong>2019 ICPC Mid-Central USA Programming Contest</strong>, 1st Place
+                          </li>
+                          <li>
+                            <strong>2018-2022 UIUC Dean's List of Grainger College of Engineering</strong>
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:center;font-size:small;">
+                This is an academic website for Yen-Hsiang Chang to share his experiences, projects, publications. <br>
+                The style of this website is borrowed from <a href="https://jonbarron.info/">Dr. Jon Barron's</a>.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
