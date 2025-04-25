@@ -48,10 +48,26 @@
           <tbody>
             <tr>
               <td style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
-                <heading>Research</heading>
+                <heading>Publications</heading>
               </td>
             </tr>
             
+            <tr>
+              <td style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
+                [3]&nbsp&nbsp<papertitle>Parallelizing the Approximate Minimum Degree Ordering Algorithm: Strategies and Evaluation</papertitle>
+                <br>
+                <a href="https://yen-hsiang-chang.github.io"><strong>Yen-Hsiang Chang</strong></a>,
+                <a href="https://people.eecs.berkeley.edu/~aydin/">Aydın Buluç</a>,
+                <a href="https://people.eecs.berkeley.edu/~demmel/">James Demmel</a>
+                <br>
+                <em>Preprint on arXiv</em>
+                <br>
+                <a href="https://arxiv.org/abs/2504.17097">arxiv</a> &nbsp|&nbsp <a href="https://github.com/PASSIONLab/ParAMD">code</a>
+                <br>
+                The approximate minimum degree algorithm is widely used before numerical factorization to reduce fill-in for sparse matrices. While considerable attention has been given to the numerical factorization process, less focus has been placed on parallelizing the approximate minimum degree algorithm itself. In this paper, we explore different parallelization strategies, and introduce a novel parallel framework that leverages multiple elimination on distance-2 independent sets. Experimental results show that we achieve up to an 8.30x speedup using 64 threads over the state-of-the-art sequential implementation in SuiteSparse.
+              </td>
+            </tr>
+
             <tr>
               <td style="padding-top:0px;padding-bottom:20px;padding-left:20px;padding-right:20px;width:75%;vertical-align:middle">
                 [2]&nbsp&nbsp<papertitle>Parallelizing Maximal Clique Enumeration on GPUs</papertitle>
@@ -65,7 +81,7 @@
                 <br>
                 <em>32nd International Conference on Parallel Architectures and Compilation Techniques (PACT'23)</em>
                 <br>
-                <a href="https://arxiv.org/abs/2212.01473">arxiv</a> &nbsp/&nbsp <a href="https://github.com/yen-hsiang-chang/mce-gpu">code</a>
+                <a href="https://doi.org/10.1109/PACT58117.2023.00022">paper</a> &nbsp|&nbsp <a href="https://arxiv.org/abs/2212.01473">arxiv</a> &nbsp|&nbsp <a href="https://github.com/yen-hsiang-chang/mce-gpu">code</a>
                 <br>
                 Instead of the breadth-first approaches used in prior GPU works, we propose to parallelize maximal clique enumeration on GPUs by performing depth-first traversal using the Bron-Kerbosch algorithm. We also propose a worker list for dynamic load balancing, as well as partial induced subgraphs and a compact representation of excluded vertex sets to regulate memory consumption. Our evaluation shows that our implementation on a single GPU outperforms the state-of-the-art parallel CPU implementation by a geometric mean of 4.9X (up to 16.7X), and scales efficiently to multiple GPUs.
               </td>
@@ -82,7 +98,7 @@
                 <br>
                 <em>2021 BenchCouncil International Symposium on Benchmarking, Measuring and Optimizing (Bench'21)</em>
                 <br>
-                <a href="https://arxiv.org/abs/2111.05231">arxiv</a> &nbsp/&nbsp <a href="https://github.com/c3sr/mlharness">code</a> &nbsp/&nbsp <a href="https://youtu.be/IzAhn5QUClU">presentation</a>
+                <a href="https://doi.org/10.1016/j.tbench.2021.100002">paper</a> &nbsp|&nbsp<a href="https://arxiv.org/abs/2111.05231">arxiv</a> &nbsp|&nbsp <a href="https://github.com/c3sr/mlharness">code</a> &nbsp|&nbsp <a href="https://youtu.be/IzAhn5QUClU">presentation</a>
                 <br>
                 We propose MLHarness, a scalable benchmarking harness system for MLCommons Inference developed on top of the MLModelScope system with three distinctive features: (1) it codifies the standard benchmark process as defined by MLCommons Inference including the models, datasets, DL frameworks, and software and hardware systems; (2) it provides an easy and declarative approach for model developers to contribute their models and datasets to MLCommons Inference; and (3) it includes the support of a wide range of models with varying inputs/outputs modalities so that we can scalably benchmark these models across different datasets, frameworks, and hardware systems.
               </td>
@@ -129,10 +145,16 @@
                         <subheading>Domestic</subheading>
                         <ul>
                           <li>
-                            <strong>2021 UIUC ECE Alumni Association Scholarship</strong>
+                            <strong>2025 Tong Leong Lim Pre-Doctoral Prize</strong>, Highest distinction in the pre-doctoral examination, UC Berkeley
                           </li>
                           <li>
-                            <strong>2020 ICPC North America Championship</strong>, Midwest Champion (10th Place)
+                            <strong>2021 ECE Alumni Association Scholarship</strong>, Outstanding scholastic record in the ECE Department, UIUC
+                          </li>
+                          <li>
+                            <strong>2020 ICPC North America Championship Cyber Challenge</strong>, 2nd Place
+                          </li>
+                          <li>
+                            <strong>2020 ICPC North America Championship</strong>, Midwest Champion (overall 10th Place)
                           </li>
                           <li>
                             <strong>2019 ICPC Mid-Central USA Programming Contest</strong>, 1st Place
