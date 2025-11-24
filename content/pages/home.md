@@ -3,23 +3,25 @@ Title: Home
 Template: about
 URL: ''
 save_as: index.html
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:
 
 profile: 
   align: right
   image: images/prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>Email: firstname_lastname [at] princeton.edu</p>
+  image_circular: true # crops the image to make it circular
+  # address: >
+  #   <p>Email: yenhsiangc@berkeley.edu</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 talks: true # includes latest talks
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research interests lie in the general area of high-performance computing, particularly in parallel programming and algorithms, with the focus on graph algorithms and applied numerical linear algebra.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am an EECS Ph.D. student at UC Berkeley, advisded by <a href="https://people.eecs.berkeley.edu/~demmel/">Jim Demmel</a>. I am associated with <a href="https://sparsitute.lbl.gov/">Sparsitute</a>, <a href="https://passion.lbl.gov/">PASSION Lab</a> and  <a href="https://bebop.cs.berkeley.edu/">BeBOP</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my B.S. in Computer Engineering from UIUC in 2022, with Highest Honors and with a minor in Mathematics. I have had the privilege to work with <a href="https://ece.illinois.edu/about/directory/faculty/w-hwu">Prof. Wen-mei Hwu</a>, <a href="https://ise.illinois.edu/directory/profile/nagi">Prof. Rakesh Nagi</a>, and <a href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/xiong-jinjun.detail.html">Prof. Jinjun Xiong</a> at Illinois.
+
+If you'd like to learn more about me, please see my <a href="cv">CV</a> or contact me via <a href="mailto:yenhsiangc@berkeley.edu">email</a>.

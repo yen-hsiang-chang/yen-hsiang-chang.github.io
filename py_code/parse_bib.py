@@ -34,6 +34,7 @@ def parse_bibliography(filename, output_key, SITE):
         "poster",
         "slides",
         "website",
+        "video"
     ]
 
     # Fields to remove from final bibtex representation
@@ -60,7 +61,7 @@ def parse_bibliography(filename, output_key, SITE):
             entry["author_array"].append(entry_author)
 
             if entry_author["first"] in SITE["first_name"] and \
-                entry_author["last"] in SITE["last_name"]:
+                entry_author["last"] in SITE["last_name"] or entry_author["last"][:-1] in SITE["last_name"]:
                 entry_author["is_self"] = True
 
         for field in non_link_fields:
@@ -84,7 +85,7 @@ def parse_bibliography(filename, output_key, SITE):
                 d.fields.pop(field)
 
         md = Markdown(extensions=['extra', 'codehilite'])
-        md_code = "```\n:::bibtex\n" + d.to_string("bibtex") + "\n```"
+        md_code = "```\n" + d.to_string("bibtex") + "\n```"
         entry["bibtex"] = md.convert(md_code)
         entries.append(entry)
 

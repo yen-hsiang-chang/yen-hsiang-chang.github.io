@@ -2,9 +2,9 @@
 title: cv 
 template: cv
 nav: true
-nav_order: 4
-cv_pdf: pdf/example_pdf.pdf
+nav_order: 2
+cv_pdf: pdf/cv.pdf
 toc:
   sidebar: left 
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+description: Click the icon to the right to download a PDF version.
 ---
