@@ -20,7 +20,7 @@ talks: true # includes latest talks
 
 My research interests lie in the general area of high-performance computing, particularly in parallel programming and algorithms, with the focus on graph algorithms and applied numerical linear algebra.
 
-I am an EECS Ph.D. student at UC Berkeley, advisded by <a href="https://people.eecs.berkeley.edu/~demmel/">Jim Demmel</a>. I am associated with <a href="https://sparsitute.lbl.gov/">Sparsitute</a>, <a href="https://passion.lbl.gov/">PASSION Lab</a> and  <a href="https://bebop.cs.berkeley.edu/">BeBOP</a>.
+I am a third-year EECS Ph.D. student at UC Berkeley, advisded by Prof. <a href="https://people.eecs.berkeley.edu/~demmel/">Jim Demmel</a>. During my first two years, I was also co-advised by Dr. <a href="https://people.eecs.berkeley.edu/~aydin/">Aydın Buluç</a>. I am associated with <a href="https://sparsitute.lbl.gov/">Sparsitute</a>, <a href="https://passion.lbl.gov/">PASSION Lab</a> and  <a href="https://bebop.cs.berkeley.edu/">BeBOP</a>.
 
 I received my B.S. in Computer Engineering from UIUC in 2022, with Highest Honors and with a minor in Mathematics. I have had the privilege to work with <a href="https://ece.illinois.edu/about/directory/faculty/w-hwu">Prof. Wen-mei Hwu</a>, <a href="https://ise.illinois.edu/directory/profile/nagi">Prof. Rakesh Nagi</a>, and <a href="https://engineering.buffalo.edu/computer-science-engineering/people/faculty-directory/full-time.host.html/content/shared/engineering/computer-science-engineering/profiles/faculty/ladder/xiong-jinjun.detail.html">Prof. Jinjun Xiong</a> at Illinois.
 
