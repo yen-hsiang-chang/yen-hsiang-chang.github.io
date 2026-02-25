@@ -2,6 +2,8 @@
   title: 
     "Parallelizing the Approximate Minimum Degree Ordering Algorithm: Strategies and Evaluation" 
   date: 2026-03-03
+  buttons:
+    slides: pdf/2026pp.pdf
 
 - venue: <a href="https://www.siam.org/conferences-events/past-event-archive/acda25/">SIAM Conference on Applied and Computational Discrete Algorithms (ACDA25)</a>, <strong>Montréal</strong>, <strong>Canada</strong>
   title: 
