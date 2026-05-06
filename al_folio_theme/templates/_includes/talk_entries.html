@@ -33,15 +33,25 @@
 
 {% endmacro %}
 
-{% macro talk_list( talks, nodivide=false) -%}
+{% macro talk_list( talks, nodivide=false, limit=false) -%}
           <div class="talks">
+            {% if talks is not none -%}
+            {%- set talks_size = talks | length -%}    
             <ol class="talks">
               <li>
-                {% for entry in talks %}
+                {% if limit and SITE.talks.limit %}
+                {% set talks_limit = SITE.talks.limit %}
+                {% else %}
+                {% set talks_limit = talks_size %}
+                {% endif %}
+                {% for entry in talks[:talks_limit] %}
                   <h2 class="talks">&nbsp;</h2>
                   {{ talk(entry, loop.last, nodivide) }}
                 {% endfor %}
               </li>
             </ol>
+            {%- else -%}
+              <p>No talks so far...</p>
+            {%- endif %}
           </div>
 {% endmacro %}

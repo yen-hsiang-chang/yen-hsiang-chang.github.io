@@ -5,6 +5,14 @@ nav: false
 summary: An archive of announcements.
 
 entries:
+  - date: 2026-05-26 
+    content: |
+      Summer plans: I will be at [NVIDIA](https://nvidia.com/en-us/) (Santa Clara campus) working as a Linear Algebra Libraries Intern.
+  
+  - date: 2026-05-05 
+    content: |
+      I passed my qualifying exam! Check out my [slides](pdf/2026qual.pdf).
+
   - date: 2025-11-17 
     content: |
       Our paper "[Parallelizing the Approximate Minimum Degree Algorithm: Strategies and Evaluation](https://arxiv.org/abs/2504.17097)" was accepted to [SIAM PP 2026](https://www.siam.org/conferences-events/siam-conferences/pp26/).

@@ -1,3 +1,10 @@
+- venue: UC Berkeley Qualifying Exam
+  title: 
+    "Parallelizing the Analysis Phase of Sparse Direct Linear Equation Solvers" 
+  date: 2026-05-05
+  buttons:
+    slides: pdf/2026qual.pdf
+
 - venue: <a href="https://www.siam.org/conferences-events/siam-conferences/pp26/">SIAM Conference on Parallel Processing for Scientific Computing (PP26)</a>, <strong>Berlin</strong>, <strong>Germany</strong>
   title: 
     "Parallelizing the Approximate Minimum Degree Ordering Algorithm: Strategies and Evaluation" 
